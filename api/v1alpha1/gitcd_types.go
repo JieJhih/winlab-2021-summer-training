@@ -31,6 +31,7 @@ type GitCDSpec struct {
 	// Foo is an example field of GitCD. Edit gitcd_types.go to remove/update
 	Url    string `json:"url"`
 	Prefix string `json:"prefix"`
+	Tag    string `json:"tag"`
 }
 
 // GitCDStatus defines the observed state of GitCD

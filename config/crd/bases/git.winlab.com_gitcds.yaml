@@ -38,12 +38,15 @@ spec:
             properties:
               prefix:
                 type: string
+              tag:
+                type: string
               url:
                 description: Foo is an example field of GitCD. Edit gitcd_types.go
                   to remove/update
                 type: string
             required:
             - prefix
+            - tag
             - url
             type: object
           status:
