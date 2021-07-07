@@ -1,0 +1,7 @@
+apiVersion: git.winlab.com/v1alpha1
+kind: GitCD
+metadata:
+  name: gitcd-sample
+spec:
+  # Add fields here
+  foo: bar
