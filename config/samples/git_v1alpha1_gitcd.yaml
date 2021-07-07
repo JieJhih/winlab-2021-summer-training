@@ -4,6 +4,6 @@ metadata:
   name: gitcd-sample
 spec:
   # Add fields here
-  url: "github.com/bharatmicrosystems/kubernetes-kaniko-nginx.git"
+  url: "github.com/JieJhih/winlab-2021-summer-training-tools.git"
   prefix: "winlab-cd"
-  tag: "jiejhih/test:v100"
+  tag: "jiejhih/winlab-pratice-cd:latest"
