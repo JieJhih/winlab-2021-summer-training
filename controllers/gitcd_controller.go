@@ -42,6 +42,7 @@ type GitCDReconciler struct {
 //+kubebuilder:rbac:groups=git.winlab.com,resources=gitcds,verbs=get;list;watch;create;update;patch;delete
 //+kubebuilder:rbac:groups=git.winlab.com,resources=gitcds/status,verbs=get;update;patch
 //+kubebuilder:rbac:groups=git.winlab.com,resources=gitcds/finalizers,verbs=update
+//+kubebuilder:rbac:groups=apps,resources=deployments,verbs=get;list;watch;create;update;patch;delete
 //+kubebuilder:rbac:groups=apps,resources=pods,verbs=get;list;watch;create;update;patch;delete
 
 // Reconcile is part of the main kubernetes reconciliation loop which aims to
