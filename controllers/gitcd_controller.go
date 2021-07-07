@@ -102,7 +102,7 @@ func (r *GitCDReconciler) Reconcile(ctx context.Context, req ctrl.Request) (ctrl
 
 func (r *GitCDReconciler) MonitorGitRepositiry(g *gitv1alpha1.GitCD, id string) *corev1.Pod {
 	url := g.Spec.Url
-	url = "git://" + url + "#refs/heads/master"
+	url = "git://" + url + "#refs/heads/main"
 	tag := g.Spec.Tag
 	pod := &corev1.Pod{
 
